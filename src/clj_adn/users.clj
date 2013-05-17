@@ -14,3 +14,9 @@
 
 (defn unfollow [user]
   (http/delete (url (str "users/" (str user "/follow")))))
+
+(defn mute [user]
+  (http/post (url (str "users/" (str user "/mute")))))
+
+(defn unmute [user]
+  (http/delete (url (str "users/" (str user "/mute")))))

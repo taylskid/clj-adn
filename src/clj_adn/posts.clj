@@ -1,5 +1,6 @@
 (ns clj-adn.posts
-  (:require [clj-http.client :as http])
+  (:require [clj-http.client :as http]
+            [cheshire.json :as json])
   (:use [clj-adn.config]))
 
 (defn post [message]
