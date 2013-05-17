@@ -12,7 +12,7 @@ Currently, you may create a new post, follow a user, unfollow a user, and retrie
 
 ```clojure
 (follow "@SirSkidmore")
-(retrive-user "@SirSkidmore")
+(retrieve-user "@SirSkidmore")
 (post "Hello from a Clojure REPL!")
 ```
 ### Disclaimer
