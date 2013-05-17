@@ -1,6 +1,6 @@
-(ns adnbot.config)
+(ns clj-adn.config)
 
-(def token "PUT YOUR TOKEN HERE")
+(def token "INSERT TOKEN HERE")
 
 (defn url [action]
   (str "https://alpha-api.app.net/stream/0/" action "?access_token=" token))

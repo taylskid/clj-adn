@@ -1,6 +1,6 @@
-(ns adnbot.core-test
+(ns clj-adn.core-test
   (:use clojure.test
-        adnbot.core))
+        clj-adn.core))
 
 (deftest a-test
   (testing "FIXME, I fail."

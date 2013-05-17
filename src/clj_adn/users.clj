@@ -1,7 +1,7 @@
-(ns adnbot.users
+(ns clj-adn.users
   (:require [clj-http.client :as http]
             [cheshire.core :as json])
-  (:use [adnbot.config]))
+  (:use [clj-adn.config]))
 
 (defn retrieve-self []
   (http/get (url "users/me")))

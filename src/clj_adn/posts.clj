@@ -1,6 +1,6 @@
-(ns adnbot.posts
+(ns clj-adn.posts
   (:require [clj-http.client :as http])
-  (:use [adnbot.config]))
+  (:use [clj-adn.config]))
 
 (defn post [message]
   (http/post (url "posts") {:form-params {:text message} :content-type :json}))
