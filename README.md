@@ -4,7 +4,7 @@ A really simple wrapper for ADN. It really can't do much yet, but I'll be workin
 
 ## Config
 
-in src/clj-adn/config.clj, be sure to set your token, available from [Dev-Lite](http://dev-lite.jonathonduerig.com/)
+in src/clj_adn/config.clj, be sure to set your token, available from [Dev-Lite](http://dev-lite.jonathonduerig.com/)
 
 ## Usage
 
