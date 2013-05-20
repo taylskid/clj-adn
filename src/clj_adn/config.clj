@@ -1,7 +1,7 @@
 (ns clj-adn.config
-  (:require [clojure.string :as string))
+  (:require [clojure.string :as string]))
 
-(def token "INSERT TOKEN HERE")
+(def token "INSER TOKEN HERE")
 
 (defn url
   [& url-parts]

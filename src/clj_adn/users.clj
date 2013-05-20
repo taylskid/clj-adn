@@ -7,16 +7,16 @@
   (http/get (url "users/me")))
 
 (defn retrieve-user [user]
-  (http/get (url (str "users/" user))))
+  (http/get (url "users" user)))
 
 (defn follow [user]
-  (http/post (url (str "users/" (str user "/follow")))))
+  (http/post (url "users" user "follow")))
 
 (defn unfollow [user]
-  (http/delete (url (str "users/" (str user "/follow")))))
+  (http/delete (url "users" user "follow")))
 
 (defn mute [user]
-  (http/post (url (str "users/" (str user "/mute")))))
+  (http/post (url "users/" user "/mute")))
 
 (defn unmute [user]
-  (http/delete (url (str "users/" (str user "/mute")))))
+  (http/delete (url "users/" user "/mute")))
