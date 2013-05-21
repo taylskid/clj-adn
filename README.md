@@ -21,6 +21,11 @@ I'm not going to pretend this code is great, so don't expect really great things
 
 If you have any questions, feel free to DM or mention me over on ADN at [@SirSkidmore](https://alpha.app.net/sirskidmore).
 
+### TODOs
+* [] Write some docs
+* [] Add in rest of post endpoints
+* [] beautify json output of endpoint calls
+
 ## License
 
 Copyright © 2013 Taylor Skidmore
